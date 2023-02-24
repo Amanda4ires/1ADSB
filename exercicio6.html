@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>valor da pizza</h3>
+    <input id="input_valor">
+    <br>
+    <h3>quantos amigos irao dividir a conta</h3>
+    <input id="input_qtd">
+    <br>
+    <button onclick="dividir()">#lovepizza</button>
+</body>
+</html>
+<script>
+    function dividir(){
+        var conta = input_valor.value / input_qtd.value
+        alert (`cada um dos ${input_qtd.value} vai pagar R$ ${conta}`)
+    }
+</script>
